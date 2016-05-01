@@ -9,9 +9,9 @@ public class Main {
 		for (int i = 0; i < args.length; i++) {
 			strings.add(args[i]);
 		}
-		
-		for (Iterator<String> s = strings.iterator(); s.hasNext(); ) {
-			System.out.println(s.next());
+
+		for (String s : strings) {
+			System.out.println(s);
 		}
 	}
 }

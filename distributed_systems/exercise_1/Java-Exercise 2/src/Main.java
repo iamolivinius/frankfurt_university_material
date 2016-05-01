@@ -7,9 +7,8 @@ public class Main {
 		List<Publication> publications = new ArrayList<Publication>();
 		publications.add(new Publication("Test1", "de", 1.0));
 		publications.add(new Book("Test2", "en", 5.0, "Oliver", 1234567890));
-		
-		for(Iterator<Publication> it = publications.iterator(); it.hasNext(); ) {
-			Publication p = it.next();
+
+		for(Publication p : publications) {
 			p.print();
 		}
 	}

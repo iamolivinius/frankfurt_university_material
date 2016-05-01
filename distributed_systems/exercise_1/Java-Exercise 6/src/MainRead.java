@@ -24,8 +24,7 @@ public class MainRead {
 			e.printStackTrace();
 		}
 
-		for (Iterator<Display> it = publications.iterator(); it.hasNext();) {
-			Display d = it.next();
+		for (Display d : publications) {
 			d.print();
 		}
 	}
