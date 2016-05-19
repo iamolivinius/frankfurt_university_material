@@ -1,0 +1,5 @@
+Einparametriger Konstruktor
+Einparametriger Konstruktor
+a isn’t 42. Showing b: 42
+Destruktor
+Destruktor
