@@ -5,13 +5,7 @@
 #include "MyString.h"
 #include "MyConsts.h"
 
-MyString::MyString() {
-	this->c_pointer = new char[static_cast<int>(MyConsts::MIN)];
-	this->length = 0;
-	this->max_length = 0;
-}
-
-MyString::MyString(int size = static_cast<int>(MyConsts::MIN)) {
+MyString::MyString(int size) {
 	this->c_pointer = new char[size];
 	this->length = 0;
 	this->max_length = size;

@@ -5,8 +5,7 @@
 
 class MyString {
 public:
-	MyString();
-	MyString(int size);
+	MyString(int size = static_cast<int>(MyConsts::MIN));
 	MyString(const char* p);
 	MyString(const MyString& obj);
 	virtual ~MyString();
